@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+	--primary-color : #482ff7;
+	--secondary-color : #2d6cdf;
+	--dark-color : #000000;
+	--white-color : #ffffff;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+/* ========================================================== */
+.brand-img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-image: url(../img/brand.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* Home Page */
+/* ==================================================================== */
+.home-illu-img {
+	width: 570px;
+}
+
+
+/* Menu */
+/* ============================================================================ */
+.card .img {
+	height: 200px;
+	transition: 0.5s;
+}
+.card .img:hover {
+	transform: scale(1.02);
+}
+
+
+/* Footer */
+/* ============================================================================== */
+footer {
+	border: 1px solid var(--primary-color);
+	border-radius: 100px 100px 0 0 ;
+}
+footer ul {
+	padding-left: 0;
+}
+footer li {
+	list-style: none;
+}
+footer .navigation-link {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+}
+
+
+/* Resspnesive */
+/* ========================================================================= */
+@media (max-width:480px) {
+	.nav-item {
+		border: 1px solid var(--primary-color);
+		width: 100%;
+		text-align: center;
+		margin: 5px auto;
+	}
+	.nav-item:first-child {
+		margin-top: 10px;
+	}
+	.nav-item:last-child {
+		margin-bottom: 15px;
+	}
+}
+
+
+
+
+
+
