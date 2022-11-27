@@ -40,9 +40,10 @@ html {
 .card .img {
 	height: 200px;
 	transition: 0.5s;
+	object-fit: cover;
 }
 .card .img:hover {
-	transform: scale(1.02);
+	transform: scale(1.01);
 }
 
 
