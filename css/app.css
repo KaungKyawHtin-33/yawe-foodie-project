@@ -81,6 +81,9 @@ footer .navigation-link {
 	.nav-item:last-child {
 		margin-bottom: 15px;
 	}
+	.card .img {
+		height: 300px;
+	}
 }
 
 
